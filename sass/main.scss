@@ -1,0 +1,26 @@
+// TODO: after writing all the css, pack it with npm and add prefixes and all the stuff.
+// TODO: look for more modern css syntax e.g. `font: 12px Helvetica`
+
+@import 
+    'abstracts/variables',
+    'abstracts/mixins',
+    'abstracts/functions',
+    
+    'base/base',
+    'base/utilities',
+    'base/typography',
+
+    'components/buttons',
+    'components/carousel',
+    'components/slider',
+
+    'layout/navigation',
+    'layout/header',
+    'layout/grid',
+    'layout/popup',
+    'layout/sidebar',
+    'layout/footer',
+    
+    'pages/home',
+    'pages/gallery',
+    'pages/checkout';

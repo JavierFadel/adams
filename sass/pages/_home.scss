@@ -1,0 +1,65 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    &--img {
+        width: 100%;
+    }
+
+    &--desc {
+        padding: 6rem;
+
+        &_title {
+            font-size: 3rem;
+            font-family: 'Bebas Neue', cursive;
+            color: $color-primary-dark;
+        }
+
+        &_subtitle {
+            font-size: 1rem;
+            text-align: justify;
+            color: $color-gray-light;
+        }
+    }
+}
+
+.option {
+    margin: 3rem auto;
+
+    &--title {
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Bebas Neue', cursive;
+        color: $color-primary-dark;
+        margin-bottom: 1.5rem;
+    }
+
+    &--subtitle {
+        font-size: 2rem;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        color: $color-primary-dark;
+    }
+
+    &--grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+
+        &__items:hover > h4 {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        &__items:hover > img {
+            // TODO: make the image opacity lower when hovered.
+            background-color: $color-gray-light;
+        }
+    }
+
+    &--image {
+        width: 100%;
+    }
+}

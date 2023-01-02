@@ -1,0 +1,19 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+    margin-bottom: 2rem;
+    background-image: url('/assets/divider-carousel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--title {
+        color: $color-white;
+        font-size: 2.5rem;
+        font-family: 'Bebas Neue', cursive;
+        text-transform: uppercase;
+    }
+}

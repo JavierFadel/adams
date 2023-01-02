@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page for Adams clothing company">
+    <meta name="keywords" content="Shirt, T-shirt, Cloths, Brand, Fashion">
+    <meta name="author" content="Javier Fadel">
+
+    <!-- LINKS. -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Adams | Gallery</title>
+</head>
+
+<body>
+
+    <navbar class="nav wrapper">
+        <div class="nav--link">
+            <a href="#" class="nav--link_item">Shop</a>
+            <a href="#" class="nav--link_item">Newsletter</a>
+            <a href="#" class="nav--link_item">Outlet</a>
+        </div>
+        <img src="assets/adams-logo.png" alt="logo" class="nav--logo">
+        <div class="nav--link">
+            <a href="#" class="nav--link_icon"><img src="assets/icon-search.png" alt="icon-search"></a>
+            <a href="#" class="nav--link_icon"><img src="assets/icon-shop.png" alt="icon-shop"></a>
+            <a href="#" class="nav--link_icon"><img src="assets/icon-user.png" alt="icon-user"></a>
+        </div>
+    </navbar>
+
+    <!-- Style this later. -->
+    <hr>
+
+    <section class="checkout wrapper">
+        <h1 class="heading-secondary">Checkout</h1>
+        <div class="checkout-panel">
+            <div class="checkout-panel__left">
+                <div class="heading-tertiary">Opsi Pengiriman</div>
+                <form action="#" class="checkout-panel__form">
+                    <!-- TODO: maybe simplify this, seperate it to two or more classes. -->
+                    <!-- E.g. checkout-panel__form-input_text checkout-panel__form-input -->
+
+                    <div class="input--group">
+                        <img src="assets/icon-truck.svg" alt="icon-truck" class="input--icon">
+                        <input type="text" class="input input--methods" name="inputMethods" id="inputMethods"
+                            placeholder="Metode Pengiriman">
+                    </div>
+
+                    <div class="input--group">
+                        <img src="assets/icon-location.svg" alt="icon-truck" class="input--icon">
+                        <input type="text" class="input input--takein" nam="inputTakeIn" id="inputTakeIn"
+                            placeholder="Ambil di Tempat">
+                    </div>
+
+                    <input type="text" class="input input--firstname" name="inputFirstName" id="inputFirstName"
+                        placeholder="First Name">
+                    <input type="text" class="input input--lastname" name="inputLastName" id="inputLastName"
+                        placeholder="Last Name">
+                    <input type="text" class="input input--address" name="inputAddress" id="inputAddress"
+                        placeholder="Alamat Pengiriman">
+                    <input type="email" class="input input--email" name="inputEmail" id="inputEmail"
+                        placeholder="Email *">
+                    <input type="text" class="input input--number" name="inputNumber" id="inputEmail"
+                        placeholder="Nomor Telepon *">
+                </form>
+                <div class="heading-tertiary heading-dropdown">Pembayaran</div>
+                <div class="heading-tertiary heading-dropdown">Detail Pemesanan</div>
+            </div>
+            <div class="checkout-panel__right">
+                <div class="heading-tertiary u-margin-bottom-sm">Keranjang Belanja</div>
+                <p class="subheading-secondary">Subtotal</p>
+                <p class="subheading-secondary">Estimasi pengiriman</p>
+                <p class="subheading-secondary u-margin-bottom-md">Total</p>
+
+                <p class="subheading-secondary u-margin-bottom-sm">Dalam Perjalanan</p>
+                <div class="checkout-panel__items">
+                    <div class="checkout-panel__item">
+                        <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+                            alt="checkout-image" class="checkout-panel__item">
+                    </div>
+                    <div class="checkout-panel__item-detail">
+                        <div class="subheading-secondary">
+                            Adams© Plain T-shirt<br>
+                            Von Complex Limited Edition
+                        </div>
+                        <p class="text--desc">
+                            Style: Plain <br>
+                            Size: M <br>
+                            Color: Pale White <br>
+                            Qty: 2
+                        </p>
+                    </div>
+                </div>
+                <div class="checkout-panel__items">
+                    <div class="checkout-panel__item">
+                        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                            alt="checkout-image" class="checkout-panel__item">
+                    </div>
+                    <div class="checkout-panel__item-detail">
+                        <div class="subheading-secondary">
+                            Adams© Plain T-shirt<br>
+                            Von Complex Limited Edition
+                        </div>
+                        <p class="text--desc">
+                            Style: Plain <br>
+                            Size: M <br>
+                            Color: Pale White <br>
+                            Qty: 2
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper footer--grid">
+            <img src="assets/adams-logo-white.png" alt="logo" class="footer--logo">
+            <ul class="footer--grid__list">
+                <li class="footer--grid__list-item">Quick Links</li>
+                <a href="#" class="footer--grid__list-item">Home</a>
+                <a href="#" class="footer--grid__list-item">About Us</a>
+                <a href="#" class="footer--grid__list-item">Shop</a>
+                <a href="#" class="footer--grid__list-item">Newsletter</a>
+                <a href="#" class="footer--grid__list-item">Outlet</a>
+            </ul>
+            <ul class="footer--grid__list">
+                <li class="footer--grid__list-item">Support</li>
+                <a href="#" class="footer--grid__list-item">Track Order</a>
+                <a href="#" class="footer--grid__list-item">Return & Refund</a>
+                <a href="#" class="footer--grid__list-item">Payment Method</a>
+                <a href="#" class="footer--grid__list-item">Contact Us</a>
+                <a href="#" class="footer--grid__list-item">FAQ</a>
+            </ul>
+            <ul class="footer--grid__socials">
+                <!-- TODO: replace these icons with favicons. -->
+                <div class="footer--grid__socials-title">Reach Us</div>
+                <div class="footer--grid__soials-group">
+                    <!-- TODO: replace these logo with svg's. -->
+                    <i class="footer--grid__socials-group--item"><img src="assets/logo-facebook.png"
+                            alt="facebook logo"></i>
+                    <i class="footer--grid__socials-group--item"><img src="assets/logo-ig.png" alt="instagram logo"></i>
+                    <i class="footer--grid__socials-group--item"><img src="assets/logo-twitter.png"
+                            alt="twitter logo"></i>
+                    <i class="footer--grid__socials-group--item"><img src="assets/logo-chat.png" alt="chat logo"></i>
+                </div>
+            </ul>
+        </div>
+    </footer>
+
+    <footer class="copyright">© 2022 Adams & Co.</footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

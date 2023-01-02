@@ -1,0 +1,41 @@
+.nav {
+    // Change to grid for equally-width box.
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 10vh;
+
+    font-size: 1rem;
+    font-weight: 300;
+    color: $color-primary-dark;
+
+    &--link {
+        display: flex;
+        justify-content: center;
+
+        &_item {
+            margin: 0 1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: inherit;
+
+            &:hover { text-decoration: underline; }
+        }
+
+        // TODO: add hover effect to this.
+        &_icon > img {
+            height: 1.3rem;
+            margin: 0 1rem;
+        }
+    }
+
+    &--logo {
+        width: 8vw;
+
+        &:hover {
+            // FIXME: this should be a link.
+            cursor: pointer;
+        }
+    }
+}

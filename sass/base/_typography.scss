@@ -1,0 +1,56 @@
+// TODO: too many random sizes: make it unite,
+.heading {
+    &-primary { 
+        color: $color-primary-dark;
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+    &-secondary {
+        color: $color-primary-dark;
+        font-size: 2.5rem;
+
+        // Make this independent.
+        margin-bottom: 2rem;
+    }
+
+    &-tertiary {
+        // TODO: font-weight variant is not enough.
+        color: $color-primary-dark;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    &-dropdown {
+        color: #999;
+        padding: 1rem 0;
+        border-top: 1px solid #999;
+
+        &:last-child {
+            border-bottom: 1px solid #999;
+        }
+    }
+}
+
+.subheading {
+    &-primary {
+        color: $color-primary-dark;
+        font-size: 1.5rem;
+    }
+
+    &-secondary {
+        color: $color-primary-dark;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: .5rem;
+        line-height: 1.2;
+    }
+}
+
+.text {
+    &--desc {
+        margin-top: .6rem;
+        font-size: .8rem;
+        line-height: 1.2;
+    }
+}

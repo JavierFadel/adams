@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+
+    &--home {
+        height: 85vh;
+        background-image: url('/assets/img-hero.png');
+    }
+
+    &--gallery {
+        // TODO: make the background gradient dynamic via css's linear-gradient.
+        height: 70vh;
+        background-image: url('/assets/img-hero-gallery.png');
+        background-position: right;
+    }
+}
