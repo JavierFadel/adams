@@ -5,3 +5,8 @@ $color-primary-light: #9EC131;
 $color-white: #f2f2f2;
 $color-black: #222;
 $color-gray-light: #999;
+
+$bp-phone: calc(600px / 16);
+$bp-tab-port: calc(900px / 16);
+$bp-tab-land: calc(1200px / 16);
+$bp-big-desktop: calc(1800px / 16);
