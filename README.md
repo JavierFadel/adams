@@ -1,3 +1,2 @@
-# adams
-
-Landing page for Adams Good.
+# Adams Good 
+## Landing page for Adams Good.
